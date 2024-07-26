@@ -1,5 +1,6 @@
 package Java.LinkedList;
 
+
 public class LinkedListExample {
 
     public static void main(String args[]) {
