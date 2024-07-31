@@ -41,13 +41,9 @@ public class CharCount {
 
         // Initialize count array index
         for (int i = 0; i < len; i++) {
-
-             char c = str.charAt(i);
-
+            char c = str.charAt(i);
              count[c]=count[c]+1;
-
         }
-
         // Iterate over the count array and print occurrences
         for (int i = 0; i < len; i++) {
             //if (count[str.charAt(i)] != 0) {
@@ -56,8 +52,6 @@ public class CharCount {
               //  count[str.charAt(i)] = 0;
             //}
         }
-
-
     }
 
 
